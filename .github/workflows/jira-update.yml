@@ -27,4 +27,4 @@ jobs:
         env:
           JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
           JIRA_TOKEN: ${{ secrets.JIRA_TOKEN }}
-        run: python update_jira.py
+        run: python script.py
