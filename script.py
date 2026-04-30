@@ -9,6 +9,7 @@ with open("jira_data.yml", "r") as f:
 
 issue_key = data["issue_key"]
 priority = data["priority"]
+summary=data["summary"]
 
 JIRA_URL = "https://bosch-pmt.atlassian.net"
 EMAIL = os.environ["JIRA_EMAIL"]
@@ -21,6 +22,7 @@ payload = {
         "priority": {
             "name": priority
         }
+        "summary":summary
     }
 }
 
