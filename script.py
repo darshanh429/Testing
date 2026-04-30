@@ -21,7 +21,7 @@ payload = {
     "fields": {
         "priority": {
             "name": priority
-        }
+        },
         "summary":summary
     }
 }
